@@ -2,8 +2,7 @@ import streamlit as st
 import pandas as pd
 from io import BytesIO
 import openpyxl
-import streamlit
-import XlsxWritter
+import xlsxwriter
 
 st.title("ERP Data Processor")
 
@@ -31,7 +30,7 @@ if uploaded_file:
         writer.close()
 
     # Provide download link
-    st.download_button(label="Download Processed File",
+    st.download_button(label="Download Processed File", output.seek(0),
                        data=output.getvalue(),
                        file_name="ERP.xlsx",
                        mime="application/vnd.openxmlformats-officedocument.spreadsheetml.sheet")
