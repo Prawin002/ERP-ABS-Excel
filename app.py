@@ -1,7 +1,7 @@
 import streamlit as st
 import pandas as pd
 from io import BytesIO
-import xlsxwriter
+import xlsxwriter as writer
 
 st.title("ERP Data Processor")
 
