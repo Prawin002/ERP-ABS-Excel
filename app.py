@@ -1,8 +1,7 @@
 import streamlit as st
 import pandas as pd
 from io import BytesIO
-openpyxl
-xlsxwriter
+import xlsxwriter
 
 st.title("ERP Data Processor")
 
