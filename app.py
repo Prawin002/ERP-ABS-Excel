@@ -1,6 +1,9 @@
 import streamlit as st
 import pandas as pd
 from io import BytesIO
+pandas
+openpyxl
+streamlit
 
 st.title("ERP Data Processor")
 
