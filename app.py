@@ -30,7 +30,7 @@ if uploaded_file:
         writer.close()
 
     # Provide download link
-    st.download_button(label="Download Processed File", output.seek(0),
+    st.download_button(label="Download Processed File",
                        data=output.getvalue(),
                        file_name="ERP.xlsx",
                        mime="application/vnd.openxmlformats-officedocument.spreadsheetml.sheet")
