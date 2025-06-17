@@ -1,3 +1,6 @@
+git add requirements.txt
+git commit -m "Add all required packages including openpyxl"
+git push
 altair==5.5.0
 attrs==25.3.0
 blinker==1.9.0
