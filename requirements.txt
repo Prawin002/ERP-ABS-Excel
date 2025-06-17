@@ -1,3 +1,10 @@
+streamlit==1.45.1
+pandas==2.2.2
+openpyxl==3.1.2
+xlsxwriter==3.2.0
+numpy==1.26.4
+python-dateutil==2.9.0.post0
+pytz==2024.1
 altair==5.5.0
 attrs==23.2.0
 blinker==1.9.0
@@ -29,7 +36,6 @@ requests==2.31.0
 rpds-py==0.10.6
 six==1.16.0
 smmap==5.0.1
-streamlit==1.45.1
 tenacity==8.2.3
 toml==0.10.2
 tornado==6.3.3
@@ -37,4 +43,3 @@ typing_extensions==4.11.0
 tzdata==2024.1
 urllib3==2.2.1
 watchdog==4.0.0
-xlsxwriter==3.2.0
